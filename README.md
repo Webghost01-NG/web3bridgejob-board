@@ -47,7 +47,7 @@
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/web3bridge-job-board.git
+git clone https://github.com/Webghost01-NG/web3bridgejob-board
 cd web3bridge-job-board
 ```
 
@@ -115,28 +115,6 @@ src/
 └── utils/          # formatDate helpers
 ```
 
----
-
-## ☁️ Deploying to Vercel
-
-### Option A — Vercel CLI (fastest)
-```bash
-npm install -g vercel
-vercel
-```
-Follow the prompts. When asked about environment variables, add all your `VITE_FIREBASE_*` keys.
-
-### Option B — Vercel Dashboard
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com) → New Project
-3. Import your GitHub repo
-4. Under **Environment Variables**, add all your `VITE_FIREBASE_*` keys
-5. Click **Deploy** 🚀
-
-> ⚠️ **Important:** Never commit your `.env` file. It's already in `.gitignore`.
-
----
-
 ## 🔥 Firebase Firestore Rules (Recommended)
 
 Paste this in Firebase Console → Firestore → Rules:
@@ -163,13 +141,7 @@ service cloud.firestore {
 }
 ```
 
----
 
-## 👨‍💻 Built By
-
-Built with 🔥 as part of **Web3Bridge Cohort XIV** Final Project Week.
-
----
 
 ## 📄 License
 
